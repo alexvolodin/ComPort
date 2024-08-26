@@ -5,6 +5,9 @@ import java.io.*;
 
 public class JSerialPort {
 
+    //// https://github.com/Fazecast/jSerialComm/wiki/Nonblocking-Reading-Usage-Example
+////18.08.24
+
     public static void main(String[] args) throws InterruptedException, IOException {
 
         SerialPort comPort = SerialPort.getCommPorts()[1];
